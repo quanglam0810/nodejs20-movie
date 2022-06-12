@@ -1,0 +1,2089 @@
+{
+	"info": {
+		"_postman_id": "8c79d23e-8ee4-4f48-a6c9-9b7fd5090fc3",
+		"name": "movienodejs20",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19844438"
+	},
+	"item": [
+		{
+			"name": "quanLyPhim",
+			"item": [
+				{
+					"name": "lấy danh sách phim",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/quanLyphim/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyphim",
+								""
+							]
+						}
+					},
+"response": [
+						
+    {
+        "id": 1,
+        "tenPhim": "PHÙ THỦY TỐI THƯỢNG 3",
+        "trailer": "https://www.youtube.com/watch?v=aWzlQ2N6qqg",
+        "poster": "posterphim.jpg",
+        "moTa": "Sau các sự kiện của Avengers: Endgame, Tiến sĩ Stephen Strange tiếp tục nghiên cứu về Viên đá Thời gian. Nhưng một người bạn cũ đã trở thành kẻ thù tìm cách tiêu diệt mọi phù thủy trên Trái đất, làm xáo trộn kế hoạch của Strange và cũng khiến anh ta mở ra một tội ác khôn lường.",
+        "ngayKhoiChieu": "2022-05-09T00:00:00.000Z",
+        "thoiLuong": 120
+    },
+    {
+        "id": 2,
+        "tenPhim": "NGHỀ SIÊU DỄ",
+        "trailer": "https://www.youtube.com/watch?v=IOwvN-aoBpM",
+        "poster": "posterphim.jpg",
+        "moTa": "Ông Thái là một cảnh sát về hưu nhưng không chịu an phận thủ thường, hàng ngày vẫn đi tìm bắt tội phạm vặt trong xóm cho đỡ nhớ nghề. Một ngày kia, Hoàng - tên trùm ma túy mới ra tù bỗng dưng chuyển đến xóm ông và mở một văn phòng bất động sản. Nghi ngờ đây là nơi làm ăn phi pháp, ông Thái quyết định âm thầm điều tra. Ông mua lại tiệm cơm tấm đối diện trụ sở của Hoàng để làm nơi theo dõi, đồng thời thu nạp Thu - Phú - Vinh - Mèo, đám thanh niên “bất hảo” trong xóm về quán hỗ trợ buôn bán để rảnh tay \\\"phá án\\\". Trớ trêu thay, tiệm cơm bất ngờ nổi tiếng và ăn nên làm ra, khiến cho \\\"chuyên án đặc biệt\\\" của ông đứng trước nguy cơ đổ bể.",
+        "ngayKhoiChieu": "2022-04-29T00:00:00.000Z",
+        "thoiLuong": 120
+    },
+    {
+        "id": 3,
+        "tenPhim": "CẢNH SÁT VŨ TRỤ LIGHTYEAR2",
+        "trailer": "https://www.youtube.com/watch?v=wHBBoUtJHhA",
+        "poster": "http://movie0706.cybersoft.edu.vn/hinhanh/canh-sat-vu-tru-lightyear_gp01.jpg",
+        "moTa": "Bộ phim kể về chuyến hành trình hành động kết hợp khoa học viễn tưởng nhằm giới thiệu câu chuyện về nguồn gốc của nhân vật Buzz Lightyear — người anh hùng đã truyền cảm hứng sáng tạo ra đồ chơi. “Lightyear” sẽ theo chân Cảnh Sát Vũ Trụ huyền thoại trong cuộc hành trình bước ra ngoài không gian cùng với một nhóm chiến binh đầy tham vọng và người bạn đồng hành là chú mèo máy Sox",
+        "ngayKhoiChieu": "2022-07-09T00:00:00.000Z",
+        "thoiLuong": 120
+    },
+    {
+        "id": 4,
+        "tenPhim": "DORAEMON: NOBITA VÀ CUỘC CHIẾN VŨ TRỤ TÍ HON 2021",
+        "trailer": "https://www.youtube.com/watch?v=bALKXsKhEEs",
+        "poster": "http://movie0706.cybersoft.edu.vn/hinhanh/doraemon-nobita-va-cuoc-chien-vu-tru-ti-hon-2021_gp01.jpg",
+        "moTa": "Nobita tình cờ gặp được người ngoài hành tinh tí hon Papi, vốn là Tổng thống của hành tinh Pirika, chạy trốn tới Trái Đất để thoát khỏi những kẻ nổi loạn nơi quê nhà. Doraemon, Nobita và hội bạn thân dùng bảo bối đèn pin thu nhỏ biến đổi theo kích cỡ giống Papi để chơi cùng cậu bé. Thế nhưng, một tàu chiến không gian tấn công cả nhóm. Cảm thấy có trách nhiệm vì liên lụy mọi người, Papi quyết định một mình đương đầu với quân phiến loạn tàn ác. Doraemon và các bạn lên đường đến hành tinh Pirika, sát cánh bên người bạn của mình.",
+        "ngayKhoiChieu": "2022-05-14T00:00:00.000Z",
+        "thoiLuong": 120
+    },
+    {
+        "id": 5,
+        "tenPhim": "THOR: TÌNH YÊU VÀ SẤM SÉT",
+        "trailer": "https://www.youtube.com/watch?v=WizuvIYbAeM",
+        "poster": "http://movie0706.cybersoft.edu.vn/hinhanh/thor-tinh-yeu-va-sam-set_gp01.jpg",
+        "moTa": "Vốn từng là một chiến binh hùng mạnh của Asgard, trải qua vô số trận chiến lớn nhỏ nhưng sau sự kiện trong Avengers: Endgame (2019) cùng vô số mất mát, Thần Sấm không còn muốn theo đuổi con đường siêu anh hùng. Từ đây, anh lên đường tìm ra ý nghĩa của cuộc sống và nhìn nhận lại bản thân mình.",
+        "ngayKhoiChieu": "2022-05-09T00:00:00.000Z",
+        "thoiLuong": 120
+    },
+    {
+        "id": 6,
+        "tenPhim": "AVATAR: DÒNG CHẢY CỦA NƯỚC 2022",
+        "trailer": "https://www.youtube.com/watch?v=oeRG9A6bDdY",
+        "poster": "http://movie0706.cybersoft.edu.vn/hinhanh/avatar-dong-chay-cua-nuoc_gp01.jpg",
+        "moTa": "Câu chuyện của “Avatar: Dòng Chảy Của Nước” lấy bối cảnh 10 năm sau những sự kiện xảy ra ở phần đầu tiên. Phim kể câu chuyện về gia đình mới của Jake Sully (Sam Worthington thủ vai) cùng những rắc rối theo sau và bi kịch họ phải chịu đựng khi phe loài người xâm lược hành tinh Pandora.",
+        "ngayKhoiChieu": "2022-06-09T00:00:00.000Z",
+        "thoiLuong": 120
+    },
+    {
+        "id": 7,
+        "tenPhim": "MÈO ĐI HIA: ĐIỀU ƯỚC CUỐI CÙNG",
+        "trailer": "https://www.youtube.com/watch?v=ixFHgfKr39Y",
+        "poster": "http://movie0706.cybersoft.edu.vn/hinhanh/meo-di-hia-dieu-uoc-cuoi-cung_gp01.jpg",
+        "moTa": "Phần nối tiếp của Puss in Boots đã ra mắt từ 11 năm trước. Chú mèo đi hia sẽ chính thức trở lại màn ảnh lớn trong 1 chuyến phiêu lưu mới, vui nhộn hơn và cũng gay cấn hơn khi đã trót “tiêu xài” 8 trong số 9 cái mạng của mình.",
+        "ngayKhoiChieu": "2022-02-09T00:00:00.000Z",
+        "thoiLuong": 120
+    },
+    {
+        "id": 8,
+        "tenPhim": "TĂNG TỐC.. VỀ PHÍA EM",
+        "trailer": "https://www.youtube.com/watch?v=_DfdCFaBEp0",
+        "poster": "http://movie0706.cybersoft.edu.vn/hinhanh/tang-toc-ve-phia-em_gp01.jpg",
+        "moTa": "Kao (Nat Kitcharit) là một nhà vô địch thế giới môn xếp ly tốc độ (Speed Stack). Tuy thành công và nổi tiếng nhưng Kao lại chỉ như một đứa trẻ to xác suốt ngày chỉ ăn, ngủ và tập luyện. Mọi vấn đề xung quanh anh đều một tay Jay (Yaya) bạn gái anh quán xuyến. Đến một ngày khi Jay quyết định chia tay thì Kao như bị mất tất cả. Anh phải bắt đầu học những kỹ năng sống cơ bản để có thể tự sống một mình và chăm sóc bản thân. Song song đó những đối thủ mới cũng xuất hiện và đe dọa đến vị trí quán quân của Kao.",
+        "ngayKhoiChieu": "2022-01-09T00:00:00.000Z",
+        "thoiLuong": 120
+    },
+    {
+        "id": 9,
+        "tenPhim": "NHÍM SONIC 2",
+        "trailer": "https://www.youtube.com/watch?v=G1Mrk6pFqVI",
+        "poster": "http://movie0706.cybersoft.edu.vn/hinhanh/nhim-sonic-2_gp01.jpg",
+        "moTa": "Khi Robotnik tìm cách quay trở về Trái Đất thành công, ông ta có một đồng minh mới là Knuckles hùng mạnh, liệu Sonic và người bạn ới Tails có thể ngăn chặn được âm mưu điên rồi để cứu lấy thế giới?",
+        "ngayKhoiChieu": "2021-01-12T00:00:00.000Z",
+        "thoiLuong": 120
+    },
+    {
+        "id": 10,
+        "tenPhim": "ĐÊM TỐI RỰC RỠ",
+        "trailer": "https://www.youtube.com/watch?v=tgL4qAcLy4Y",
+        "poster": "http://movie0706.cybersoft.edu.vn/hinhanh/dem-toi-ruc-ro_gp01.jpg",
+        "moTa": "Khi người ông qua đời, cả gia đình của Xuân Thanh (Nhã Uyên) tề tựu để đưa tiễn. Đám tang diễn ra hoành tráng, xôm tụ và đầy màu sắc. Bỗng dưng một đám người kéo đến đòi nợ trong sự ngỡ ngàng của tất cả. Những bí mật bị phanh phui, bi kịch chồng bi kịch, như một hệ luỵ tổn thương của nạn bạo hành gia đình đầy ám ảnh.",
+        "ngayKhoiChieu": "2022-01-09T00:00:00.000Z",
+        "thoiLuong": 120
+    },
+    {
+        "id": 11,
+        "tenPhim": "MÈO ĐI HIA: ĐIỀU ƯỚC CUỐI CÙNG U",
+        "trailer": "https://www.youtube.com/watch?v=ixFHgfKr39Y",
+        "poster": "localhost:3000/public\\images\\poster\\1655009944013.jpg",
+        "moTa": "Phần nối tiếp của Puss in Boots đã ra mắt từ 11 năm trước. Chú mèo đi hia sẽ chính thức trở lại màn ảnh lớn trong 1 chuyến phiêu lưu mới, vui nhộn hơn và cũng gay cấn hơn khi đã trót “tiêu xài” 8 trong số 9 cái mạng của mình.",
+        "ngayKhoiChieu": "2022-08-02T00:00:00.000Z",
+        "thoiLuong": 120
+    },
+    {
+        "id": 13,
+        "tenPhim": "Loki Thần Lừa 2",
+        "trailer": "https://www.youtube.com/watch?v=nW948Va-l10",
+        "poster": "localhost:3000/public\\images\\poster\\1655009822703.jpg",
+        "moTa": "Loki marvel sản xuất",
+        "ngayKhoiChieu": "2022-08-02T00:00:00.000Z",
+        "thoiLuong": 120
+    },
+    {
+        "id": 14,
+        "tenPhim": "Loki Thần Lừa 44",
+        "trailer": "https://www.youtube.com/watch?v=nW948Va-l10",
+        "poster": "localhost:3000/public\\images\\poster\\1655009965411.jpg",
+        "moTa": "Loki marvel sản xuất",
+        "ngayKhoiChieu": "2022-08-02T00:00:00.000Z",
+        "thoiLuong": 120
+    },
+    {
+        "id": 15,
+        "tenPhim": "Loki Thần Lừa 44",
+        "trailer": "https://www.youtube.com/watch?v=nW948Va-l10",
+        "poster": "localhost:3000/public\\images\\poster\\1655011518570.jpg",
+        "moTa": "Loki marvel sản xuất",
+        "ngayKhoiChieu": "2022-08-02T00:00:00.000Z",
+        "thoiLuong": 120
+    }
+]
+				},
+				{
+					"name": "lấy danh sách phim phân trang",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/quanLyphim/2/5",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyphim",
+								"2",
+								"5"
+							]
+						}
+					},
+"response": [
+	{
+		"totalMovie": 14,
+		"totalPage": 3,
+		"page": 2,
+		"pageSize": 5,
+		"item": [
+			{
+				"id": 6,
+				"tenPhim": "AVATAR: DÒNG CHẢY CỦA NƯỚC 2022",
+				"trailer": "https://www.youtube.com/watch?v=oeRG9A6bDdY",
+				"poster": "http://movie0706.cybersoft.edu.vn/hinhanh/avatar-dong-chay-cua-nuoc_gp01.jpg",
+				"moTa": "Câu chuyện của “Avatar: Dòng Chảy Của Nước” lấy bối cảnh 10 năm sau những sự kiện xảy ra ở phần đầu tiên. Phim kể câu chuyện về gia đình mới của Jake Sully (Sam Worthington thủ vai) cùng những rắc rối theo sau và bi kịch họ phải chịu đựng khi phe loài người xâm lược hành tinh Pandora.",
+				"ngayKhoiChieu": "2022-06-09T00:00:00.000Z",
+				"thoiLuong": 120
+			},
+			{
+				"id": 7,
+				"tenPhim": "MÈO ĐI HIA: ĐIỀU ƯỚC CUỐI CÙNG",
+				"trailer": "https://www.youtube.com/watch?v=ixFHgfKr39Y",
+				"poster": "http://movie0706.cybersoft.edu.vn/hinhanh/meo-di-hia-dieu-uoc-cuoi-cung_gp01.jpg",
+				"moTa": "Phần nối tiếp của Puss in Boots đã ra mắt từ 11 năm trước. Chú mèo đi hia sẽ chính thức trở lại màn ảnh lớn trong 1 chuyến phiêu lưu mới, vui nhộn hơn và cũng gay cấn hơn khi đã trót “tiêu xài” 8 trong số 9 cái mạng của mình.",
+				"ngayKhoiChieu": "2022-02-09T00:00:00.000Z",
+				"thoiLuong": 120
+			},
+			{
+				"id": 8,
+				"tenPhim": "TĂNG TỐC.. VỀ PHÍA EM",
+				"trailer": "https://www.youtube.com/watch?v=_DfdCFaBEp0",
+				"poster": "http://movie0706.cybersoft.edu.vn/hinhanh/tang-toc-ve-phia-em_gp01.jpg",
+				"moTa": "Kao (Nat Kitcharit) là một nhà vô địch thế giới môn xếp ly tốc độ (Speed Stack). Tuy thành công và nổi tiếng nhưng Kao lại chỉ như một đứa trẻ to xác suốt ngày chỉ ăn, ngủ và tập luyện. Mọi vấn đề xung quanh anh đều một tay Jay (Yaya) bạn gái anh quán xuyến. Đến một ngày khi Jay quyết định chia tay thì Kao như bị mất tất cả. Anh phải bắt đầu học những kỹ năng sống cơ bản để có thể tự sống một mình và chăm sóc bản thân. Song song đó những đối thủ mới cũng xuất hiện và đe dọa đến vị trí quán quân của Kao.",
+				"ngayKhoiChieu": "2022-01-09T00:00:00.000Z",
+				"thoiLuong": 120
+			},
+			{
+				"id": 9,
+				"tenPhim": "NHÍM SONIC 2",
+				"trailer": "https://www.youtube.com/watch?v=G1Mrk6pFqVI",
+				"poster": "http://movie0706.cybersoft.edu.vn/hinhanh/nhim-sonic-2_gp01.jpg",
+				"moTa": "Khi Robotnik tìm cách quay trở về Trái Đất thành công, ông ta có một đồng minh mới là Knuckles hùng mạnh, liệu Sonic và người bạn ới Tails có thể ngăn chặn được âm mưu điên rồi để cứu lấy thế giới?",
+				"ngayKhoiChieu": "2021-01-12T00:00:00.000Z",
+				"thoiLuong": 120
+			},
+			{
+				"id": 10,
+				"tenPhim": "ĐÊM TỐI RỰC RỠ",
+				"trailer": "https://www.youtube.com/watch?v=tgL4qAcLy4Y",
+				"poster": "http://movie0706.cybersoft.edu.vn/hinhanh/dem-toi-ruc-ro_gp01.jpg",
+				"moTa": "Khi người ông qua đời, cả gia đình của Xuân Thanh (Nhã Uyên) tề tựu để đưa tiễn. Đám tang diễn ra hoành tráng, xôm tụ và đầy màu sắc. Bỗng dưng một đám người kéo đến đòi nợ trong sự ngỡ ngàng của tất cả. Những bí mật bị phanh phui, bi kịch chồng bi kịch, như một hệ luỵ tổn thương của nạn bạo hành gia đình đầy ám ảnh.",
+				"ngayKhoiChieu": "2022-01-09T00:00:00.000Z",
+				"thoiLuong": 120
+			}
+		]
+	}
+]
+				},
+				{
+					"name": "lấy danh sách phim theo ngày",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tungay\":\"2021-02-02\",\r\n    \"denngay\":\"2022-09-02\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/quanLyphim/layDanhSachPhimTheoNgay?page=1&pageSize=5",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyphim",
+								"layDanhSachPhimTheoNgay"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "pageSize",
+									"value": "5"
+								}
+							]
+						}
+					},
+"response": [
+	{
+        "id": 1,
+        "tenPhim": "PHÙ THỦY TỐI THƯỢNG 3",
+        "trailer": "https://www.youtube.com/watch?v=aWzlQ2N6qqg",
+        "poster": "posterphim.jpg",
+        "moTa": "Sau các sự kiện của Avengers: Endgame, Tiến sĩ Stephen Strange tiếp tục nghiên cứu về Viên đá Thời gian. Nhưng một người bạn cũ đã trở thành kẻ thù tìm cách tiêu diệt mọi phù thủy trên Trái đất, làm xáo trộn kế hoạch của Strange và cũng khiến anh ta mở ra một tội ác khôn lường.",
+        "ngayKhoiChieu": "2022-05-09T00:00:00.000Z",
+        "thoiLuong": 120
+    },
+    {
+        "id": 2,
+        "tenPhim": "NGHỀ SIÊU DỄ",
+        "trailer": "https://www.youtube.com/watch?v=IOwvN-aoBpM",
+        "poster": "posterphim.jpg",
+        "moTa": "Ông Thái là một cảnh sát về hưu nhưng không chịu an phận thủ thường, hàng ngày vẫn đi tìm bắt tội phạm vặt trong xóm cho đỡ nhớ nghề. Một ngày kia, Hoàng - tên trùm ma túy mới ra tù bỗng dưng chuyển đến xóm ông và mở một văn phòng bất động sản. Nghi ngờ đây là nơi làm ăn phi pháp, ông Thái quyết định âm thầm điều tra. Ông mua lại tiệm cơm tấm đối diện trụ sở của Hoàng để làm nơi theo dõi, đồng thời thu nạp Thu - Phú - Vinh - Mèo, đám thanh niên “bất hảo” trong xóm về quán hỗ trợ buôn bán để rảnh tay \\\"phá án\\\". Trớ trêu thay, tiệm cơm bất ngờ nổi tiếng và ăn nên làm ra, khiến cho \\\"chuyên án đặc biệt\\\" của ông đứng trước nguy cơ đổ bể.",
+        "ngayKhoiChieu": "2022-04-29T00:00:00.000Z",
+        "thoiLuong": 120
+    },
+    {
+        "id": 3,
+        "tenPhim": "CẢNH SÁT VŨ TRỤ LIGHTYEAR2",
+        "trailer": "https://www.youtube.com/watch?v=wHBBoUtJHhA",
+        "poster": "http://movie0706.cybersoft.edu.vn/hinhanh/canh-sat-vu-tru-lightyear_gp01.jpg",
+        "moTa": "Bộ phim kể về chuyến hành trình hành động kết hợp khoa học viễn tưởng nhằm giới thiệu câu chuyện về nguồn gốc của nhân vật Buzz Lightyear — người anh hùng đã truyền cảm hứng sáng tạo ra đồ chơi. “Lightyear” sẽ theo chân Cảnh Sát Vũ Trụ huyền thoại trong cuộc hành trình bước ra ngoài không gian cùng với một nhóm chiến binh đầy tham vọng và người bạn đồng hành là chú mèo máy Sox",
+        "ngayKhoiChieu": "2022-07-09T00:00:00.000Z",
+        "thoiLuong": 120
+    },
+    {
+        "id": 4,
+        "tenPhim": "DORAEMON: NOBITA VÀ CUỘC CHIẾN VŨ TRỤ TÍ HON 2021",
+        "trailer": "https://www.youtube.com/watch?v=bALKXsKhEEs",
+        "poster": "http://movie0706.cybersoft.edu.vn/hinhanh/doraemon-nobita-va-cuoc-chien-vu-tru-ti-hon-2021_gp01.jpg",
+        "moTa": "Nobita tình cờ gặp được người ngoài hành tinh tí hon Papi, vốn là Tổng thống của hành tinh Pirika, chạy trốn tới Trái Đất để thoát khỏi những kẻ nổi loạn nơi quê nhà. Doraemon, Nobita và hội bạn thân dùng bảo bối đèn pin thu nhỏ biến đổi theo kích cỡ giống Papi để chơi cùng cậu bé. Thế nhưng, một tàu chiến không gian tấn công cả nhóm. Cảm thấy có trách nhiệm vì liên lụy mọi người, Papi quyết định một mình đương đầu với quân phiến loạn tàn ác. Doraemon và các bạn lên đường đến hành tinh Pirika, sát cánh bên người bạn của mình.",
+        "ngayKhoiChieu": "2022-05-14T00:00:00.000Z",
+        "thoiLuong": 120
+    },
+    {
+        "id": 5,
+        "tenPhim": "THOR: TÌNH YÊU VÀ SẤM SÉT",
+        "trailer": "https://www.youtube.com/watch?v=WizuvIYbAeM",
+        "poster": "http://movie0706.cybersoft.edu.vn/hinhanh/thor-tinh-yeu-va-sam-set_gp01.jpg",
+        "moTa": "Vốn từng là một chiến binh hùng mạnh của Asgard, trải qua vô số trận chiến lớn nhỏ nhưng sau sự kiện trong Avengers: Endgame (2019) cùng vô số mất mát, Thần Sấm không còn muốn theo đuổi con đường siêu anh hùng. Từ đây, anh lên đường tìm ra ý nghĩa của cuộc sống và nhìn nhận lại bản thân mình.",
+        "ngayKhoiChieu": "2022-05-09T00:00:00.000Z",
+        "thoiLuong": 120
+    }
+]
+				},
+				{
+					"name": "thêm phim",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNjU1MDA5NTk2LCJleHAiOjE2NTUwOTU5OTZ9.yzTpHjLxnFdjaaQ_uoGAcGFc59QRF7Gt9bYE4FlYaM0",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"tenPhim\": \"EM VÀ TRỊNH 2\",\r\n        \"trailer\": \"https://www.youtube.com/watch?v=IosqnBOkk2I\",\r\n        \"poster\": \"http://movie0706.cybersoft.edu.vn/hinhanh/em-va-trinh_gp01.jpg\",\r\n        \"moTa\": \"Sau những teaser đầu tiên hé lộ về các nàng thơ, ekip phim vừa tung ra trailer của “EM VÀ TRỊNH” cho thấy rõ hơn về một thời tuổi trẻ oanh liệt của Trịnh Công Sơn, từ chàng trai thư sinh yêu chủ nghĩa lãng mạn đến khi trở thành người nhạc sĩ phản chiến yêu hòa bình.  EM VÀ TRỊNH tái hiện một mùa hè tuổi trẻ rực lửa của Trịnh Công Sơn. Mùa hè đó có các nàng thơ, có âm nhạc, có tình yêu tuổi trẻ, có những chuyến đi phiêu du trên khắp mọi miền tổ quốc và có cả bom đạn, khói lửa, lý tưởng.\",\r\n        \"ngayKhoiChieu\": \"2022-06-06\",\r\n        \"thoiLuong\": 120\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/quanLyphim/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyphim",
+								""
+							]
+						}
+					},
+					
+					
+"response": [
+	{
+		"id": 16,
+		"tenPhim": "EM VÀ TRỊNH 2",
+		"trailer": "https://www.youtube.com/watch?v=IosqnBOkk2I",
+		"poster": "http://movie0706.cybersoft.edu.vn/hinhanh/em-va-trinh_gp01.jpg",
+		"moTa": "Sau những teaser đầu tiên hé lộ về các nàng thơ, ekip phim vừa tung ra trailer của “EM VÀ TRỊNH” cho thấy rõ hơn về một thời tuổi trẻ oanh liệt của Trịnh Công Sơn, từ chàng trai thư sinh yêu chủ nghĩa lãng mạn đến khi trở thành người nhạc sĩ phản chiến yêu hòa bình.  EM VÀ TRỊNH tái hiện một mùa hè tuổi trẻ rực lửa của Trịnh Công Sơn. Mùa hè đó có các nàng thơ, có âm nhạc, có tình yêu tuổi trẻ, có những chuyến đi phiêu du trên khắp mọi miền tổ quốc và có cả bom đạn, khói lửa, lý tưởng.",
+		"ngayKhoiChieu": "2022-06-06T00:00:00.000Z",
+		"thoiLuong": 120
+	}
+]
+				},
+				{
+					"name": "xóa phim",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNjU1MDAwODExLCJleHAiOjE2NTUwODcyMTF9.GgDqgLhQe9HNUTI1wOzZG8f2Ai6PV4kuKJR7tfynX0s",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/quanLyphim/12",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyphim",
+								"12"
+							]
+						}
+					},
+					"response": [
+
+					]
+				},
+				{
+					"name": "lấy thông tin phim",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/quanLyphim/11",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyphim",
+								"11"
+							]
+						}
+					},
+					"response": [
+						{
+							"id": 11,
+							"tenPhim": "MÈO ĐI HIA: ĐIỀU ƯỚC CUỐI CÙNG U",
+							"trailer": "https://www.youtube.com/watch?v=ixFHgfKr39Y",
+							"poster": "localhost:3000/public\\images\\poster\\1655009944013.jpg",
+							"moTa": "Phần nối tiếp của Puss in Boots đã ra mắt từ 11 năm trước. Chú mèo đi hia sẽ chính thức trở lại màn ảnh lớn trong 1 chuyến phiêu lưu mới, vui nhộn hơn và cũng gay cấn hơn khi đã trót “tiêu xài” 8 trong số 9 cái mạng của mình.",
+							"ngayKhoiChieu": "2022-08-02T00:00:00.000Z",
+							"thoiLuong": 120
+						}
+					]
+				},
+				{
+					"name": "cập nhật phim",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"tenPhim\": \"Doctor- Stranger 2 u\",\r\n        \"trailer\": \"youtube.com/adyss u\",\r\n        \"poster\": \"anhbacsy.jpg u\",\r\n        \"moTa\": \"khong noi nhieu u\"\r\n      \r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/quanLyphim/1",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyphim",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "thêm hình ảnh poster phim",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/quanLyphim/poster",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyphim",
+								"poster"
+							]
+						}
+					},
+					"response": [
+						
+					]
+				},
+				{
+					"name": "thêm phim upload poster",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "tenPhim",
+									"value": "Loki Thần Lừa",
+									"type": "text"
+								},
+								{
+									"key": "trailer",
+									"value": "https://www.youtube.com/watch?v=nW948Va-l10",
+									"type": "text"
+								},
+								{
+									"key": "moTa",
+									"value": "Loki marvel sản xuất",
+									"type": "text"
+								},
+								{
+									"key": "ngayKhoiChieu",
+									"value": "2022-08-02",
+									"type": "text"
+								},
+								{
+									"key": "thoiLuong",
+									"value": "120",
+									"type": "text"
+								},
+								{
+									"key": "poster",
+									"type": "file",
+									"src": "/E:/HUB-CSND/KQTLKK/Ảnh/KN/FB_IMG_1527485896451.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{domain}}/quanLyphim/themPhimUploadPoster",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyphim",
+								"themPhimUploadPoster"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "cập nhật phim upload poster",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "tenPhim",
+									"value": "MÈO ĐI HIA: ĐIỀU ƯỚC CUỐI CÙNG",
+									"type": "text"
+								},
+								{
+									"key": "poster",
+									"type": "file",
+									"src": "/C:/Users/PC-10/Desktop/meme-cho-shiba-15.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{domain}}/quanLyphim/Poster/11",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyphim",
+								"Poster",
+								"11"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "lấy thông tin phim, lịch chiếu phim",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/quanLyphim/layLichChieu/?idphim=1",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyphim",
+								"layLichChieu",
+								""
+							],
+							"query": [
+								{
+									"key": "idphim",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"movieInfo": [
+								{
+									"id": 4,
+									"tenPhim": "DORAEMON: NOBITA VÀ CUỘC CHIẾN VŨ TRỤ TÍ HON 2021",
+									"trailer": "https://www.youtube.com/watch?v=bALKXsKhEEs",
+									"poster": "http://movie0706.cybersoft.edu.vn/hinhanh/doraemon-nobita-va-cuoc-chien-vu-tru-ti-hon-2021_gp01.jpg",
+									"moTa": "Nobita tình cờ gặp được người ngoài hành tinh tí hon Papi, vốn là Tổng thống của hành tinh Pirika, chạy trốn tới Trái Đất để thoát khỏi những kẻ nổi loạn nơi quê nhà. Doraemon, Nobita và hội bạn thân dùng bảo bối đèn pin thu nhỏ biến đổi theo kích cỡ giống Papi để chơi cùng cậu bé. Thế nhưng, một tàu chiến không gian tấn công cả nhóm. Cảm thấy có trách nhiệm vì liên lụy mọi người, Papi quyết định một mình đương đầu với quân phiến loạn tàn ác. Doraemon và các bạn lên đường đến hành tinh Pirika, sát cánh bên người bạn của mình.",
+									"ngayKhoiChieu": "2022-05-14T00:00:00.000Z",
+									"thoiLuong": 120
+								}
+							],
+							"cinemaInfo": [
+								{
+									"id": 1,
+									"tenHeThongRap": "BHSTAR",
+									"biDanh": "BHS",
+									"logo": "bhstar.jpg",
+									"rapPhims": [
+										{
+											"id": 1,
+											"tenRapPhim": "Bhstar Go Vap",
+											"diaChi": "12, Phan van tri, q.go vap",
+											"logo": "bhgovap.jpg",
+											"idHeThongRap": 1,
+											"phongChieus": [
+												{
+													"id": 2,
+													"tenPhong": "Phong 02",
+													"loaiPhong": "2d",
+													"idRapPhim": 1,
+													"lichChieuPhims": [
+														{
+															"id": 2,
+															"maChieuPhim": "BH-110",
+															"ngayChieu": "2021-01-05T00:00:00.000Z",
+															"gioChieu": "19:10:00",
+															"idPhongChieu": 2,
+															"idPhim": 4
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "quanLyNguoiDung",
+			"item": [
+				{
+					"name": "đăng kí",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"taiKhoan\":\"nguoidung2\",\r\n    \"matKhau\":\"123456\",\r\n    \"email\":\"quanglampro@gmail.com\",\r\n    \"dienThoai\":\"0985034354\",\r\n    \"ngaySinh\":\"2002-08-26\",\r\n    \"hoTen\":\"ly tam hoan\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/quanLyNguoiDung/dangKy",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyNguoiDung",
+								"dangKy"
+							]
+						}
+					},
+					"response": [
+						{
+							"id": 8,
+							"taiKhoan": "nguoidung5",
+							"dienThoai": "0985034354",
+							"email": "quanglampro@gmail.com",
+							"ngaySinh": "2002-08-26T00:00:00.000Z",
+							"loaiNguoiDung": "USER",
+							"hoTen": "ly tam hoang"
+						}
+					]
+				},
+				{
+					"name": "đăng nhập",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"taiKhoan\": \"nguoidung1\",\r\n    \"matKhau\":\"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/quanLyNguoiDung/dangNhap",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyNguoiDung",
+								"dangNhap"
+							]
+						}
+					},
+					"response": [
+						{
+							"user": {
+								"id": 1,
+								"taiKhoan": "nguoidung1",
+								"email": "diuco@gmail.com",
+								"dienThoai": "0985034354",
+								"ngaySinh": "1990-08-26T00:00:00.000Z",
+								"hoTen": "Nguyen Van a",
+								"loaiNguoiDung": "USER"
+							},
+							"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjU1MDExODYyLCJleHAiOjE2NTUwOTgyNjJ9.9c3vY8iQ4efbHnNffLaN7wQXjUVNZJxD7NkJHZLgfKY"
+						}
+					]
+				},
+				{
+					"name": "lấy danh sách người dùng",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/quanLyNguoiDung/danhSachNguoiDung/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyNguoiDung",
+								"danhSachNguoiDung",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"id": 1,
+							"taiKhoan": "nguoidung1",
+							"email": "diuco@gmail.com",
+							"dienThoai": "0985034354",
+							"ngaySinh": "1990-08-26T00:00:00.000Z",
+							"hoTen": "Nguyen Van a",
+							"loaiNguoiDung": "USER"
+						},
+						{
+							"id": 2,
+							"taiKhoan": "quantri1",
+							"email": "diuco@gmail.com",
+							"dienThoai": "0985034354",
+							"ngaySinh": "1990-08-26T00:00:00.000Z",
+							"hoTen": "Nguyen Van Quan",
+							"loaiNguoiDung": "ADMIN"
+						},
+						{
+							"id": 3,
+							"taiKhoan": "nguoidung2",
+							"email": "quanglampro@gmail.com",
+							"dienThoai": "0985034354",
+							"ngaySinh": "2002-08-26T00:00:00.000Z",
+							"hoTen": "ly tam hoan",
+							"loaiNguoiDung": "USER"
+						},
+						{
+							"id": 5,
+							"taiKhoan": "nguoidung3",
+							"email": "quanglampro@gmail.com",
+							"dienThoai": "0985034354",
+							"ngaySinh": "2002-08-26T00:00:00.000Z",
+							"hoTen": "ly tam hoan",
+							"loaiNguoiDung": "USER"
+						},
+						{
+							"id": 8,
+							"taiKhoan": "nguoidung5",
+							"email": "quanglampro@gmail.com",
+							"dienThoai": "0985034354",
+							"ngaySinh": "2002-08-26T00:00:00.000Z",
+							"hoTen": "ly tam hoang",
+							"loaiNguoiDung": "USER"
+						},
+						{
+							"id": 9,
+							"taiKhoan": "nguoidung6",
+							"email": "quanglampro@gmail.com",
+							"dienThoai": "0985034354",
+							"ngaySinh": "2002-08-26T00:00:00.000Z",
+							"hoTen": "nguyen van hoang",
+							"loaiNguoiDung": "USER"
+						}
+					]
+				},
+				{
+					"name": "lấy thông tin người dùng theo id",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjUzNzkzMTE3LCJleHAiOjE2NTM4Nzk1MTd9.gIm9VeEp0mCnLAS89-UHOlLLuUr7MYm4Rz700VcNQ3E",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearber{{}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/quanLyNguoiDung/layThongTinNguoiDung?id=1",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyNguoiDung",
+								"layThongTinNguoiDung"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": [ 
+						{
+							"id": 1,
+							"taiKhoan": "nguoidung1",
+							"email": "diuco@gmail.com",
+							"dienThoai": "0985034354",
+							"ngaySinh": "1990-08-26T00:00:00.000Z",
+							"hoTen": "Nguyen Van a",
+							"loaiNguoiDung": "USER"
+						}
+					]
+				},
+				{
+					"name": "upload-avatar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNjUzNTQyMjU2LCJleHAiOjE2NTM2Mjg2NTZ9.Y08yJ58vTKPnL87OKH95kDtFjy3kZYA2utBmCBeSmg4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "avatar",
+									"type": "file",
+									"src": "/E:/HUB-CSND/KQTLKK/Ảnh/KN/B10.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{domain}}/quanLyNguoiDung/9/Avatar",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyNguoiDung",
+								"9",
+								"Avatar"
+							]
+						}
+					},
+					"response": [
+						{
+							"id": 13,
+							"duongDan": "localhost:3000/public\\images\\avatars\\1655011619923.jpg",
+							"trangThai": true,
+							"idNguoiDung": 2
+						}
+					]
+				},
+				{
+					"name": "lấy danh sách người dùng phân trang",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/quanLyNguoiDung/danhSachNguoiDung/1/4",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyNguoiDung",
+								"danhSachNguoiDung",
+								"1",
+								"4"
+							]
+						}
+					},
+					"response": [
+						{
+							"totalUser": 6,
+							"totalPage": 2,
+							"page": 1,
+							"pageSize": 4,
+							"item": [
+								{
+									"id": 1,
+									"taiKhoan": "nguoidung1",
+									"email": "diuco@gmail.com",
+									"dienThoai": "0985034354",
+									"ngaySinh": "1990-08-26T00:00:00.000Z",
+									"hoTen": "Nguyen Van a",
+									"loaiNguoiDung": "USER"
+								},
+								{
+									"id": 2,
+									"taiKhoan": "quantri1",
+									"email": "diuco@gmail.com",
+									"dienThoai": "0985034354",
+									"ngaySinh": "1990-08-26T00:00:00.000Z",
+									"hoTen": "Nguyen Van Quan",
+									"loaiNguoiDung": "ADMIN"
+								},
+								{
+									"id": 3,
+									"taiKhoan": "nguoidung2",
+									"email": "quanglampro@gmail.com",
+									"dienThoai": "0985034354",
+									"ngaySinh": "2002-08-26T00:00:00.000Z",
+									"hoTen": "ly tam hoan",
+									"loaiNguoiDung": "USER"
+								},
+								{
+									"id": 5,
+									"taiKhoan": "nguoidung3",
+									"email": "quanglampro@gmail.com",
+									"dienThoai": "0985034354",
+									"ngaySinh": "2002-08-26T00:00:00.000Z",
+									"hoTen": "ly tam hoan",
+									"loaiNguoiDung": "USER"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "tìm kiếm người dùng",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/quanLyNguoiDung/timNguoiDung?tukhoa=ly",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyNguoiDung",
+								"timNguoiDung"
+							],
+							"query": [
+								{
+									"key": "tukhoa",
+									"value": "ly"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"tukhoa": "ly",
+							"listUser": [
+								{
+									"id": 3,
+									"taiKhoan": "nguoidung2",
+									"email": "quanglampro@gmail.com",
+									"dienThoai": "0985034354",
+									"ngaySinh": "2002-08-26T00:00:00.000Z",
+									"hoTen": "ly tam hoan",
+									"loaiNguoiDung": "USER"
+								},
+								{
+									"id": 5,
+									"taiKhoan": "nguoidung3",
+									"email": "quanglampro@gmail.com",
+									"dienThoai": "0985034354",
+									"ngaySinh": "2002-08-26T00:00:00.000Z",
+									"hoTen": "ly tam hoan",
+									"loaiNguoiDung": "USER"
+								},
+								{
+									"id": 8,
+									"taiKhoan": "nguoidung5",
+									"email": "quanglampro@gmail.com",
+									"dienThoai": "0985034354",
+									"ngaySinh": "2002-08-26T00:00:00.000Z",
+									"hoTen": "ly tam hoang",
+									"loaiNguoiDung": "USER"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "tìm kiếm người dùng phân trang",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/quanLyNguoiDung/timNguoiDungPhanTrang?tukhoa=nguyen&page=1&pageSize=3",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyNguoiDung",
+								"timNguoiDungPhanTrang"
+							],
+							"query": [
+								{
+									"key": "tukhoa",
+									"value": "nguyen"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "pageSize",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"totalUser": 3,
+							"totalPage": 1,
+							"page": 1,
+							"pageSize": 3,
+							"listUser": [
+								{
+									"id": 1,
+									"taiKhoan": "nguoidung1",
+									"email": "diuco@gmail.com",
+									"dienThoai": "0985034354",
+									"ngaySinh": "1990-08-26T00:00:00.000Z",
+									"hoTen": "Nguyen Van a",
+									"loaiNguoiDung": "USER"
+								},
+								{
+									"id": 2,
+									"taiKhoan": "quantri1",
+									"email": "diuco@gmail.com",
+									"dienThoai": "0985034354",
+									"ngaySinh": "1990-08-26T00:00:00.000Z",
+									"hoTen": "Nguyen Van Quan",
+									"loaiNguoiDung": "ADMIN"
+								},
+								{
+									"id": 9,
+									"taiKhoan": "nguoidung6",
+									"email": "quanglampro@gmail.com",
+									"dienThoai": "0985034354",
+									"ngaySinh": "2002-08-26T00:00:00.000Z",
+									"hoTen": "nguyen van hoang",
+									"loaiNguoiDung": "USER"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "lấy thông tin tài khoản",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjU1MDExODYyLCJleHAiOjE2NTUwOTgyNjJ9.9c3vY8iQ4efbHnNffLaN7wQXjUVNZJxD7NkJHZLgfKY",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/quanLyNguoiDung/layThongTinCaNhan",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyNguoiDung",
+								"layThongTinCaNhan"
+							]
+						}
+					},
+					"response": [
+						{
+							"id": 1,
+							"taiKhoan": "nguoidung1",
+							"email": "diuco@gmail.com",
+							"dienThoai": "0985034354",
+							"ngaySinh": "1990-08-26T00:00:00.000Z",
+							"hoTen": "Nguyen Van a",
+							"loaiNguoiDung": "USER"
+						}
+					]
+				},
+				{
+					"name": "lấy danh sách người dùng theo loại người dùng",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/quanLyNguoiDung/loaiNguoiDung?role=ADMIN",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyNguoiDung",
+								"loaiNguoiDung"
+							],
+							"query": [
+								{
+									"key": "role",
+									"value": "ADMIN"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"id": 2,
+							"taiKhoan": "quantri1",
+							"email": "diuco@gmail.com",
+							"dienThoai": "0985034354",
+							"ngaySinh": "1990-08-26T00:00:00.000Z",
+							"hoTen": "Nguyen Van Quan",
+							"loaiNguoiDung": "ADMIN"
+						}
+					]
+				},
+				{
+					"name": "cập nhật thông tin người dùng",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/quanLyNguoiDung/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyNguoiDung",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "thêm người dùng",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNjU0MTg1NzgzLCJleHAiOjE2NTQyNzIxODN9.56_H2CSOj4FuGdlsqIUyH7ljbH_vg7db6_xuXZ69yF4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/quanLyNguoiDung/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyNguoiDung",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "xóa người dùng",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNjU0MTg1NzgzLCJleHAiOjE2NTQyNzIxODN9.56_H2CSOj4FuGdlsqIUyH7ljbH_vg7db6_xuXZ69yF4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/quanLyNguoiDung/:id",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyNguoiDung",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "quanLyRap",
+			"item": [
+				{
+					"name": "lấy danh sách hệ thống rạp",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/quanLyRap/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyRap",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"id": 1,
+							"tenHeThongRap": "BHSTAR",
+							"biDanh": "BHS",
+							"logo": "bhstar.jpg"
+						},
+						{
+							"id": 2,
+							"tenHeThongRap": "LOTTER",
+							"biDanh": "LTC",
+							"logo": "lottecinema.jpg"
+						},
+						{
+							"id": 3,
+							"tenHeThongRap": "VINCOM",
+							"biDanh": "VAG",
+							"logo": "vincom.jpg"
+						}
+					]
+				},
+				{
+					"name": "lấy thông tin hệ thống rạp theo id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/quanLyRap/1",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyRap",
+								"1"
+							]
+						}
+					},
+					"response": [
+						{
+							"id": 1,
+							"tenHeThongRap": "BHSTAR",
+							"biDanh": "BHS",
+							"logo": "bhstar.jpg"
+						}
+					]
+				},
+				{
+					"name": "lấy thông tin rạp theo id hệ thống rạp",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "{{domain}}/quanLyRap/layThongTinCumRap/2",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyRap",
+								"layThongTinCumRap",
+								"2"
+							]
+						}
+					},
+					"response": [
+						{
+							"id": 2,
+							"tenHeThongRap": "LOTTER",
+							"biDanh": "LTC",
+							"logo": "lottecinema.jpg",
+							"rapPhims": [
+								{
+									"id": 3,
+									"tenRapPhim": "Lotter Cinema Go Vap",
+									"diaChi": "12 le van tho, p 10, q go vap",
+									"logo": "lottegovap.jpg",
+									"idHeThongRap": 2,
+									"phongChieus": [
+										{
+											"id": 6,
+											"tenPhong": "phong 01",
+											"loaiPhong": "2d",
+											"idRapPhim": 3
+										},
+										{
+											"id": 7,
+											"tenPhong": "phong 02",
+											"loaiPhong": "2d",
+											"idRapPhim": 3
+										}
+									]
+								},
+								{
+									"id": 4,
+									"tenRapPhim": "lotte cinema Quan 1",
+									"diaChi": "49 le duan p.ben thanh, q1",
+									"logo": "lottebenthanh.jpg",
+									"idHeThongRap": 2,
+									"phongChieus": [
+										{
+											"id": 8,
+											"tenPhong": "phong 01",
+											"loaiPhong": "2d",
+											"idRapPhim": 4
+										},
+										{
+											"id": 9,
+											"tenPhong": "phong 02",
+											"loaiPhong": "2d",
+											"idRapPhim": 4
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "lấy thông tin rạp theo id rạp",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/quanLyRap/layThongTinPhongTheoRap/5",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyRap",
+								"layThongTinPhongTheoRap",
+								"5"
+							]
+						}
+					},
+					"response": [
+						{
+							"id": 5,
+							"tenRapPhim": "Vincom Ben Nghe",
+							"diaChi": "13 paster p.ben nghe q1",
+							"logo": "avg ben nghe",
+							"idHeThongRap": 3,
+							"phongChieus": [
+								{
+									"id": 10,
+									"tenPhong": "phong 01",
+									"loaiPhong": "2d",
+									"idRapPhim": 5
+								},
+								{
+									"id": 11,
+									"tenPhong": "phong 02",
+									"loaiPhong": "2d",
+									"idRapPhim": 5
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "lấy lịch chiếu phim theo id hệ thống rạp",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/quanLyRap/lichChieuHeThong/1",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyRap",
+								"lichChieuHeThong",
+								"1"
+							]
+						}
+					},
+					"response": [
+						{
+							"id": 1,
+							"tenHeThongRap": "BHSTAR",
+							"biDanh": "BHS",
+							"logo": "bhstar.jpg",
+							"rapPhims": [
+								{
+									"id": 1,
+									"tenRapPhim": "Bhstar Go Vap",
+									"diaChi": "12, Phan van tri, q.go vap",
+									"logo": "bhgovap.jpg",
+									"idHeThongRap": 1,
+									"phongChieus": [
+										{
+											"id": 1,
+											"tenPhong": "Phong 01",
+											"loaiPhong": "2d",
+											"idRapPhim": 1,
+											"lichChieuPhims": [
+												{
+													"id": 1,
+													"maChieuPhim": "BH-110",
+													"ngayChieu": "2022-01-15T00:00:00.000Z",
+													"gioChieu": "19:10:00",
+													"idPhongChieu": 1,
+													"idPhim": 1
+												}
+											]
+										},
+										{
+											"id": 2,
+											"tenPhong": "Phong 02",
+											"loaiPhong": "2d",
+											"idRapPhim": 1,
+											"lichChieuPhims": [
+												{
+													"id": 2,
+													"maChieuPhim": "BH-110",
+													"ngayChieu": "2021-01-05T00:00:00.000Z",
+													"gioChieu": "19:10:00",
+													"idPhongChieu": 2,
+													"idPhim": 4
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": 2,
+									"tenRapPhim": "Bhstar quan 12",
+									"diaChi": "154, le van khuong, p thoi an, q 12",
+									"logo": "bhquan12.jpg",
+									"idHeThongRap": 1,
+									"phongChieus": [
+										{
+											"id": 5,
+											"tenPhong": "phong 02",
+											"loaiPhong": "3d",
+											"idRapPhim": 2,
+											"lichChieuPhims": [
+												{
+													"id": 3,
+													"maChieuPhim": "BH-110",
+													"ngayChieu": "2021-01-05T00:00:00.000Z",
+													"gioChieu": "19:10:00",
+													"idPhongChieu": 5,
+													"idPhim": 3
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "lấy thông tin lịch chiếu phim theo id phim",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/quanLyRap/lichChieuPhim/1",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyRap",
+								"lichChieuPhim",
+								"1"
+							]
+						}
+					},
+					"response": [
+						{
+							"movieInfo": [
+								{
+									"id": 1,
+									"tenPhim": "PHÙ THỦY TỐI THƯỢNG 3",
+									"trailer": "https://www.youtube.com/watch?v=aWzlQ2N6qqg",
+									"poster": "posterphim.jpg",
+									"moTa": "Sau các sự kiện của Avengers: Endgame, Tiến sĩ Stephen Strange tiếp tục nghiên cứu về Viên đá Thời gian. Nhưng một người bạn cũ đã trở thành kẻ thù tìm cách tiêu diệt mọi phù thủy trên Trái đất, làm xáo trộn kế hoạch của Strange và cũng khiến anh ta mở ra một tội ác khôn lường.",
+									"ngayKhoiChieu": "2022-05-09T00:00:00.000Z",
+									"thoiLuong": 120
+								}
+							],
+							"cinemaInfo": [
+								{
+									"id": 1,
+									"tenHeThongRap": "BHSTAR",
+									"biDanh": "BHS",
+									"logo": "bhstar.jpg",
+									"rapPhims": [
+										{
+											"id": 1,
+											"tenRapPhim": "Bhstar Go Vap",
+											"diaChi": "12, Phan van tri, q.go vap",
+											"logo": "bhgovap.jpg",
+											"idHeThongRap": 1,
+											"phongChieus": [
+												{
+													"id": 1,
+													"tenPhong": "Phong 01",
+													"loaiPhong": "2d",
+													"idRapPhim": 1,
+													"lichChieuPhims": [
+														{
+															"id": 1,
+															"maChieuPhim": "BH-110",
+															"ngayChieu": "2022-01-15T00:00:00.000Z",
+															"gioChieu": "19:10:00",
+															"idPhongChieu": 1,
+															"idPhim": 1
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "quanLyDatVe",
+			"item": [
+				{
+					"name": "tạo lịch chiếu phim",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNjU1MDAwODExLCJleHAiOjE2NTUwODcyMTF9.GgDqgLhQe9HNUTI1wOzZG8f2Ai6PV4kuKJR7tfynX0s",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idPhim\":\"10\",\r\n    \"idPhongChieu\":\"4\",\r\n    \"maChieuPhim\":\"BH-110\",\r\n    \"ngayChieu\":\"2023-09-12\",\r\n    \"gioChieu\":\"19:10:00\",\r\n    \"soLuongVe\":\"10\",\r\n    \"giave\":\"75000\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/quanLyDatVe/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyDatVe",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"newShowTime": {
+								"id": 3,
+								"maChieuPhim": "BH-110",
+								"ngayChieu": "2021-01-05T00:00:00.000Z",
+								"gioChieu": "19:10:00",
+								"idPhongChieu": "5",
+								"idPhim": "3"
+							},
+							"listSeat": [
+								{
+									"id": 21,
+									"tenGhe": "Ghe so:1",
+									"loaiGhe": "don",
+									"giave": "75000",
+									"trangThai": true,
+									"idLichChieuPhim": 3
+								},
+								{
+									"id": 22,
+									"tenGhe": "Ghe so:2",
+									"loaiGhe": "don",
+									"giave": "75000",
+									"trangThai": true,
+									"idLichChieuPhim": 3
+								},
+								{
+									"id": 23,
+									"tenGhe": "Ghe so:3",
+									"loaiGhe": "don",
+									"giave": "75000",
+									"trangThai": true,
+									"idLichChieuPhim": 3
+								},
+								{
+									"id": 24,
+									"tenGhe": "Ghe so:4",
+									"loaiGhe": "don",
+									"giave": "75000",
+									"trangThai": true,
+									"idLichChieuPhim": 3
+								},
+								{
+									"id": 25,
+									"tenGhe": "Ghe so:5",
+									"loaiGhe": "don",
+									"giave": "75000",
+									"trangThai": true,
+									"idLichChieuPhim": 3
+								},
+								{
+									"id": 26,
+									"tenGhe": "Ghe so:6",
+									"loaiGhe": "don",
+									"giave": "75000",
+									"trangThai": true,
+									"idLichChieuPhim": 3
+								},
+								{
+									"id": 27,
+									"tenGhe": "Ghe so:7",
+									"loaiGhe": "don",
+									"giave": "75000",
+									"trangThai": true,
+									"idLichChieuPhim": 3
+								},
+								{
+									"id": 28,
+									"tenGhe": "Ghe so:8",
+									"loaiGhe": "don",
+									"giave": "75000",
+									"trangThai": true,
+									"idLichChieuPhim": 3
+								},
+								{
+									"id": 29,
+									"tenGhe": "Ghe so:9",
+									"loaiGhe": "don",
+									"giave": "75000",
+									"trangThai": true,
+									"idLichChieuPhim": 3
+								},
+								{
+									"id": 30,
+									"tenGhe": "Ghe so:10",
+									"loaiGhe": "don",
+									"giave": "75000",
+									"trangThai": true,
+									"idLichChieuPhim": 3
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "lấy thông tin phòng chiếu",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/quanLyDatVe/lichChieuPhim/3",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyDatVe",
+								"lichChieuPhim",
+								"3"
+							]
+						}
+					},
+					"response": [{
+						"thongTinRap": [
+							{
+								"tenHeThongRap": "BHSTAR",
+								"rapPhims": [
+									{
+										"tenRapPhim": "Bhstar quan 12",
+										"diaChi": "154, le van khuong, p thoi an, q 12",
+										"phongChieus": [
+											{
+												"tenPhong": "phong 02",
+												"lichChieuPhims": [
+													{
+														"ngayChieu": "2021-01-05T00:00:00.000Z",
+														"gioChieu": "19:10:00"
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						"thongTinPhim": [
+							{
+								"tenPhim": "CẢNH SÁT VŨ TRỤ LIGHTYEAR2",
+								"poster": "http://movie0706.cybersoft.edu.vn/hinhanh/canh-sat-vu-tru-lightyear_gp01.jpg"
+							}
+						],
+						"thongTinGhe": [
+							{
+								"id": 21,
+								"tenGhe": "Ghe so:1",
+								"loaiGhe": "don",
+								"giave": 75000,
+								"trangThai": true,
+								"idLichChieuPhim": 3,
+								"ctVes": []
+							},
+							{
+								"id": 22,
+								"tenGhe": "Ghe so:2",
+								"loaiGhe": "don",
+								"giave": 75000,
+								"trangThai": true,
+								"idLichChieuPhim": 3,
+								"ctVes": []
+							},
+							{
+								"id": 23,
+								"tenGhe": "Ghe so:3",
+								"loaiGhe": "don",
+								"giave": 75000,
+								"trangThai": true,
+								"idLichChieuPhim": 3,
+								"ctVes": []
+							},
+							{
+								"id": 24,
+								"tenGhe": "Ghe so:4",
+								"loaiGhe": "don",
+								"giave": 75000,
+								"trangThai": true,
+								"idLichChieuPhim": 3,
+								"ctVes": []
+							},
+							{
+								"id": 25,
+								"tenGhe": "Ghe so:5",
+								"loaiGhe": "don",
+								"giave": 75000,
+								"trangThai": true,
+								"idLichChieuPhim": 3,
+								"ctVes": []
+							},
+							{
+								"id": 26,
+								"tenGhe": "Ghe so:6",
+								"loaiGhe": "don",
+								"giave": 75000,
+								"trangThai": true,
+								"idLichChieuPhim": 3,
+								"ctVes": []
+							},
+							{
+								"id": 27,
+								"tenGhe": "Ghe so:7",
+								"loaiGhe": "don",
+								"giave": 75000,
+								"trangThai": true,
+								"idLichChieuPhim": 3,
+								"ctVes": []
+							},
+							{
+								"id": 28,
+								"tenGhe": "Ghe so:8",
+								"loaiGhe": "don",
+								"giave": 75000,
+								"trangThai": true,
+								"idLichChieuPhim": 3,
+								"ctVes": []
+							},
+							{
+								"id": 29,
+								"tenGhe": "Ghe so:9",
+								"loaiGhe": "don",
+								"giave": 75000,
+								"trangThai": true,
+								"idLichChieuPhim": 3,
+								"ctVes": []
+							},
+							{
+								"id": 30,
+								"tenGhe": "Ghe so:10",
+								"loaiGhe": "don",
+								"giave": 75000,
+								"trangThai": true,
+								"idLichChieuPhim": 3,
+								"ctVes": []
+							}
+						]
+					}]
+				},
+				{
+					"name": "đặt vé",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjU0OTk5NzEwLCJleHAiOjE2NTUwODYxMTB9.tE89ZwY3KTK-qiXKLKlzFmWh-JTXi1ItxivsPRSkWZ0",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idLichChieuPhim\":\"3\",\r\n    \"idGhe\":[\r\n        \"21\" ,\r\n        \"22\"     \r\n    ]\r\n}\r\n\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/quanLyDatVe/datVe/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyDatVe",
+								"datVe",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"user": {
+								"id": 1,
+								"taiKhoan": "nguoidung1",
+								"email": "diuco@gmail.com",
+								"dienThoai": "0985034354",
+								"ngaySinh": "1990-08-26T00:00:00.000Z",
+								"hoTen": "Nguyen Van a",
+								"loaiNguoiDung": "USER"
+							},
+							"detailTickets": [
+								{
+									"detaiTicket": {
+										"idVe": 1,
+										"idGhe": "21"
+									},
+									"detailRoom": {
+										"id": 21,
+										"tenGhe": "Ghe so:1",
+										"loaiGhe": "don",
+										"giave": 75000,
+										"trangThai": false,
+										"idLichChieuPhim": 3
+									}
+								},
+								{
+									"detaiTicket": {
+										"idVe": 1,
+										"idGhe": "22"
+									},
+									"detailRoom": {
+										"id": 22,
+										"tenGhe": "Ghe so:2",
+										"loaiGhe": "don",
+										"giave": 75000,
+										"trangThai": false,
+										"idLichChieuPhim": 3
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "lấy dách vé người dùng đã đặt",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjU0MDYyOTczLCJleHAiOjE2NTQxNDkzNzN9.qX7sh3VjM98re2dVKmRhHQr1rMi4dioocfZhkJbVZUM",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/quanLyDatVe/lichSuDatVe/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quanLyDatVe",
+								"lichSuDatVe",
+								""
+							]
+						}
+					},
+					"response": [
+						
+    {
+        "id": 1,
+        "idNguoiDung": 1,
+        "ctVes": [
+            {
+                "idVe": 1,
+                "idGhe": 21,
+                "gheXem": {
+                    "id": 21,
+                    "tenGhe": "Ghe so:1",
+                    "loaiGhe": "don",
+                    "giave": 75000,
+                    "trangThai": false,
+                    "idLichChieuPhim": 3,
+                    "lichChieuPhim": {
+                        "id": 3,
+                        "maChieuPhim": "BH-110",
+                        "ngayChieu": "2021-01-05T00:00:00.000Z",
+                        "gioChieu": "19:10:00",
+                        "idPhongChieu": 5,
+                        "idPhim": 3
+                    }
+                }
+            },
+            {
+                "idVe": 1,
+                "idGhe": 22,
+                "gheXem": {
+                    "id": 22,
+                    "tenGhe": "Ghe so:2",
+                    "loaiGhe": "don",
+                    "giave": 75000,
+                    "trangThai": false,
+                    "idLichChieuPhim": 3,
+                    "lichChieuPhim": {
+                        "id": 3,
+                        "maChieuPhim": "BH-110",
+                        "ngayChieu": "2021-01-05T00:00:00.000Z",
+                        "gioChieu": "19:10:00",
+                        "idPhongChieu": 5,
+                        "idPhim": 3
+                    }
+                }
+            }
+        ]
+    }
+					]
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "domain",
+			"value": "http://localhost:3000",
+			"type": "string"
+		}
+	]
+}
